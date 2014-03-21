@@ -69,7 +69,7 @@ I also recommend that you test verifying before sending your pull request.
 
 **How you should sign your file**
 
-    openssl dgst -sign your-private-key.pem -out your-file.sig -sha512 your-file
+    $ openssl dgst -sign your-private-key.pem -out your-file.sig -sha512 your-file
 
 **How you can generate a private key**
 
