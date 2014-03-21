@@ -73,7 +73,7 @@ I also recommend that you test verifying before sending your pull request.
 
 **How you can generate a private key**
 
-    $ genrsa -out your-key.pem 2048
+    $ openssl genrsa -out your-key.pem 2048
 
 **How you get the public key from the private key**
 
